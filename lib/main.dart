@@ -9,6 +9,7 @@ void main() {
   );
 }
 
+// TODO deploy to web
 
 // TODO
 // we'll add device preview to the app so that we deploy it on the web
