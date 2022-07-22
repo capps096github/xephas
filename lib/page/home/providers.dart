@@ -3,3 +3,6 @@ import 'controller/home_controller.dart';
 
 final homeProvider =
     Provider<HomeController>((ref) => HomeController(ref.read));
+
+
+
