@@ -39,6 +39,6 @@ XephasMe xephasMe = XephasMe(
   gender: "He/Him",
   about:
       "Hi, my name is Mugisa Brian, but you can call me Cephas. I'm a software engineer with experience in cross-platform app development using Flutter and a passion for graphics and UX design. I love using my skills and I'm dedicated to developing, designing and creating experiences that improve people's lives. It's nice to meet you!",
-  profilePic: 'https://avatars.githubusercontent.com/u/59374587?v=4',
+  profilePic: 'https://raw.githubusercontent.com/capps096github/AppsArt/master/xephas/xephas_profile.jpg',
   birthday: DateTime(2000, 12, 12),
 );
