@@ -1,11 +1,11 @@
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:whatsapp_unilink/whatsapp_unilink.dart';
-import '../../constants/exporter.dart';
+import '../../../global/constants/exporter.dart';
 
 void openFacebook() async {
-  // const fbLink = 'https://www.facebook.com/cApps20/';
-  // await linkLauncher(fbLink);
+  const fbLink = 'https://www.facebook.com/officialxephas/';
+  await linkLauncher(fbLink);
 }
 
 void openTwitter() async {

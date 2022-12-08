@@ -20,7 +20,7 @@ const xephasError = Color(0xFFFF0000);
 // pink
 const xephasPink = Color(0xFFF8074B);
 
+const Color xephasBackground = Color(0xFFE2EBFA);
 
-// ? App Colors
 // thumbsColor
 const Color thumbsColor = Color(0xFF021660);

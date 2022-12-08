@@ -11,7 +11,7 @@ class ButtonText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: defaultPadding,
+      padding: padding16,
       child: Text(
         text,
         maxLines: 1,

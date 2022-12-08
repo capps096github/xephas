@@ -71,13 +71,13 @@ class ButtonBody extends StatelessWidget {
                 onPressed: onTap,
                 style: TextButton.styleFrom(
                   backgroundColor: buttonColor,
-                  primary: textColor,
+                  foregroundColor: textColor,
                   // elevation: isHovered ? 2 : 0,
                   shadowColor: textColor,
                   visualDensity: density,
                   textStyle: buttonTextStyle,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(defaultSpacing8),
+                    borderRadius: BorderRadius.circular(spacing8),
                   ),
                 ),
                 label: ButtonText(text: text),
@@ -89,13 +89,13 @@ class ButtonBody extends StatelessWidget {
                 onPressed: onTap,
                 style: TextButton.styleFrom(
                   backgroundColor: buttonColor,
-                  primary: textColor,
+                  foregroundColor: textColor,
                   // elevation: isHovered ? 2 : 0,
                   visualDensity: density,
                   shadowColor: textColor,
                   textStyle: buttonTextStyle,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(defaultSpacing8),
+                    borderRadius: BorderRadius.circular(spacing8),
                   ),
                 ),
                 child: ButtonText(text: text),

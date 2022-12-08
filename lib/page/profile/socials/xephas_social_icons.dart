@@ -36,9 +36,9 @@ class XephasSocialIcons extends StatelessWidget {
             return SocialIcon(
               toolTip: socialContact.tooltip,
               toolTipTextColor: socialContact.textColor,
-              toolTipBacground: socialContact.socialColor,
+              toolTipBacground: socialContact.platformColor,
               iconColor: socialContact.textColor,
-              iconBacground: socialContact.socialColor,
+              iconBacground: socialContact.platformColor,
               onTap: socialContact.onTap,
               icon: socialContact.icon,
             );

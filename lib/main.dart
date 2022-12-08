@@ -9,6 +9,9 @@ void main() {
   );
 }
 
+// TODO Advance this app to only allow Cephas to Sign In and the rest are viewers who are logged in anonymously into the site
+// the reason for thsi si so that we have the admin rights to manage the app and update it as we grow in our career
+
 // TODO deploy to web
 
 // TODO

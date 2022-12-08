@@ -3,16 +3,28 @@ import '../../../xephas_exporter.dart';
 class SocialContact {
   //
   final IconData icon, trailingIcon;
-  final String label;
+
+  // social platform
+  final String platform;
+
+  // tooltip
   final String tooltip;
-  final Color socialColor, textColor;
+
+  // colors
+  final Color platformColor, textColor;
+
+  //
   final VoidCallback onTap;
+
+  // handle
+  final String handle;
 
   SocialContact({
     required this.icon,
-    required this.label,
+    required this.platform,
+    required this.handle,
     required this.tooltip,
-    required this.socialColor,
+    required this.platformColor,
     this.textColor = xephasWhite,
     required this.onTap,
     required this.trailingIcon,

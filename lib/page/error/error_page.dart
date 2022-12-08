@@ -71,7 +71,7 @@ class ErrorPage extends StatelessWidget {
             const VerticalSpacing(of: 40),
 
             AppButton.small(
-              onTap: () => context.go(AppRouter.initialPath),
+              onTap: () => context.go(homePath),
               text: "Get back to Safety",
               iconData: Icons.arrow_forward,
             ),

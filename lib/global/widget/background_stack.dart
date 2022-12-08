@@ -19,7 +19,7 @@ class BackgroundStack extends StatelessWidget {
           left: -100,
           top: -100,
           child: InkWell(
-            onTap: () => context.go(AppRouter.initialPath),
+            onTap: () => context.go(homePath),
             customBorder: const CircleBorder(),
             child: const Image(
               image: AssetImage("images/xephas_enhance.png"),
@@ -35,7 +35,7 @@ class BackgroundStack extends StatelessWidget {
           top: 0,
           bottom: -100,
           child: InkWell(
-            onTap: () => context.go(AppRouter.initialPath),
+            onTap: () => context.go(homePath),
             customBorder: const CircleBorder(),
             child: Image.asset(
               // XephasAssets.xephasAvatarEnhanced,
