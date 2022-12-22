@@ -29,6 +29,10 @@ class XephasMe {
     required this.profilePic,
     required this.birthday,
   });
+
+// createe a username from the full name, add @ at the start, only use the first paart of the name
+  String get username => '@${name.split(' ')[0]}';
+
 }
 
 // xephasMe object for XephasMe
@@ -42,3 +46,4 @@ XephasMe xephasMe = XephasMe(
   profilePic: 'https://raw.githubusercontent.com/capps096github/AppsArt/master/xephas/xephas_profile.jpg',
   birthday: DateTime(2000, 12, 12),
 );
+

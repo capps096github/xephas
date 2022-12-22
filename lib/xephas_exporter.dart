@@ -10,6 +10,12 @@ export 'package:flextras/flextras.dart';
 export 'package:ionicons/ionicons.dart';
 export 'package:dotted_border/dotted_border.dart';
 
+//
+export 'package:flutter_form_builder/flutter_form_builder.dart';
+export 'package:flutter_localizations/flutter_localizations.dart';
+export 'package:form_builder_validators/form_builder_validators.dart';
+
+
 // ? app exports
 export 'app/exporter.dart';
 

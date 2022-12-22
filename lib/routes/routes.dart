@@ -28,6 +28,13 @@ final routerProvider = Provider<GoRouter>(
           builder: (context, state) => const XephasProfile(),
         ),
 
+        // contact
+        GoRoute(
+          path: contactPath,
+          builder: (context, state) => const XephasContact(),
+        ),
+
+
         // apps
         GoRoute(
           path: appsPath,
